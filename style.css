@@ -2,24 +2,28 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    overflow: hidden;
+}
+
+body {
+    background-color: #EBEBEB;
 }
 
 form {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin: 2em 1em;
+    margin: 1.5em 1em;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 legend {
-    font-size: 46px;
+    font-size: 44px;
     text-align: center;
+    text-decoration: underline;
 }
 
 label {
-    padding: 1em 0;
+    padding: 0.5em 0;
     text-align: center;
     font-size: 30px;
 }
@@ -31,7 +35,16 @@ input {
 }
 
 button {
-    font-size: 44px;
+    background-color: #004E98;
+    border: none;
+    border-radius: 0.2em;
+    padding: 0.25em 1em;
+    color: #EBEBEB;
+    font-size: 40px;
+}
+
+button:hover {
+    cursor: pointer;
 }
 
 .flex-wrap {
@@ -50,5 +63,5 @@ button {
 }
 
 .result {
-    font-size: 70px;
+    font-size: 45px;
 }
