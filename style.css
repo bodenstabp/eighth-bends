@@ -41,6 +41,11 @@ input {
 
 }
 
+input:focus{
+    outline: none;
+    border: 2px solid #FAA916;
+}
+
 button {
     font-family:'Antonio','Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: #fbfffe;
@@ -54,6 +59,7 @@ button {
 
 button:hover {
     cursor: pointer;
+    opacity: 0.9;
 }
 
 .flex-wrap {
