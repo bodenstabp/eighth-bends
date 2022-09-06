@@ -5,11 +5,12 @@
 }
 
 body {
-    background-color: #EBEBEB;
+    background-color: #1B1B1E;
+    color: #FAA916
 }
 
 form {
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:'Antonio','Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin: 1.5em 1em;
     display: flex;
     justify-content: center;
@@ -29,17 +30,25 @@ label {
 }
 
 input {
+    font-family:'Antonio','Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
     margin: 1em 0;
     padding: 0.25em;
     font-size: 30px;
+    background-color: #fbfffe;
+    border: none;
+    border-radius: 0.2em;
+
 }
 
 button {
-    background-color: #004E98;
-    border: none;
+    font-family:'Antonio','Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #fbfffe;
+    border-color: #96031A;
+    border-width: 5px;
     border-radius: 0.2em;
     padding: 0.25em 1em;
-    color: #EBEBEB;
+    color: #1B1B1E;
     font-size: 40px;
 }
 
@@ -51,12 +60,13 @@ button:hover {
     height: 80vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
 }
 
 .flex-group {
     display: flex;
+    padding: 0.5em;
     flex-direction: column;
     justify-content: center;
     align-items: center;
